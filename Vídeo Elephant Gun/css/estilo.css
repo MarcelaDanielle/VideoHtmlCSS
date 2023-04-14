@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+html{
+    font-family: 62.5%;
+}
+header{
+    background-color: rgba(47,79,79);
+    color: white;
+    font-family: arial;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    text-shadow: 2px 2px 3px #008B8B;
+}
+h3{
+    font-size: 1.5rem;
+    font-family: arial;
+    margin: 0;
+    padding: 5px;
+}
+
+h4{
+    font-size: 1rem;
+    font-family: arial;
+    margin: 0;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+body{
+    background: linear-gradient(#13b443b9, #1f3c72d0);
+}
+.container{
+    display: block;
+    background-color: rgb(171, 230, 221);
+    width: 60%;
+    box-shadow: 2px 2px #feffff;
+    margin: 0 auto;
+    max-width: 90%;
+    box-shadow: 2px 2px 8px #245c32;
+}
+@media(min-width: 320px) and (max-width: 450px){
+    .container{
+    display: block;
+    background-color: rgb(171, 230, 221);
+    width: 99%;
+    box-shadow: 2px 2px #feffff;
+    margin: 0 auto;
+    max-width: 90%;
+    box-shadow: 2px 2px 8px #245c32;
+}
+
+}
+
+footer{
+    font-family: arial;
+    color: white;
+    background-color: rgb(40, 70, 70);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px 3px #008B8B;
+}
+p{
+    font-family: arial;
+    text-align: justify;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+h1{
+    font-family: arial;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.5rem;
+
+}
+h2{
+    font-family: arial;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+.texto-footer{
+    text-align: center;
+    font-family: arial;
+    padding-top: 10px;
+    font-size: 1.0rem;
+    padding-bottom: 10px;
+}
+.compre{
+    background-color: rgb(151, 206, 168);
+    width: 150px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    margin-top: 5%;
+    z-index: 1;
+}
+h5{
+    font-family: arial;
+    text-align: center;
+    padding: 1px;
+    font-size: 1.4rem;
+}
+button{
+    font-family: arial;
+    text-align: center;
+    padding: 2px;
+    font-size: 1.4rem;
+    background-color: rgba(50, 205, 50, 1.0);
+    color: #F0FFFF;
+    border: solid #000;
+}
+
+
+#grid-container{
+    margin-top: 5px;
+    background-color: rgba(255,127,80);
+}
+.grid{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grid div{
+    background-color: #F0FFFF;
+    font-family: arial;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 2px;
+}
+#formulario{
+    background-color: rgba(173, 216, 230, 1.0);
+}
+.formulario-contato{
+    font-family: arial;
+    font-size: 1.8rem;
+    padding: 10px;
+    text-align: left;
+    margin-left: 5%;
+    font-weight: bold;
+}
+input{
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    padding: 5px;
+}
+.dados-formulario{
+    width: 70%;
+}
+nav{
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 1.6rem;
+    margin-right: 2%;
+    word-spacing: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1.0);
+    transition: all 200ms ease-in-out;
+}
+a:hover{
+    color: dodgerblue;
+}
+div.video{
+    position: relative;
+    padding-bottom: 50%;
+    background-color: rgb(164,224,208);
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+p.compra-cd{
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    background-color: rgba(0,128,128);
+    border-radius: 20px;
+    border: solid rgb(169, 238, 213, 0.70);
+    text-shadow: 2px 2px 9px #000;
+}
+@media(min-width: 320px) and (max-width: 450px){
+    p.compra-cd{
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    background-color: rgba(0,128,128);
+    border-radius: 20px;
+    border: solid rgb(169, 238, 213, 0.70);
+    text-shadow: 2px 2px 9px #000;
+}
+}
